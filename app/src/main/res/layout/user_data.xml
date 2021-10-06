@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="20dp"
+    app:cardElevation="15dp"
+    android:layout_marginVertical="8dp"
+    android:layout_marginHorizontal="16dp"
+    app:cardCornerRadius="15dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/avtar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@color/black"
+            />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:layout_toRightOf="@+id/avtar"
+            android:layout_marginTop="20dp"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:layout_below="@+id/id"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/avtar"
+            />
+
+
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/lname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lastnmae"
+            android:layout_below="@+id/fname"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/avtar"
+            />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_below="@+id/lname"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/avtar"
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
